@@ -134,7 +134,7 @@ ___
 # play sound in 2D space (sound id, volume, looping)
 GAME.SOUND.play2D(
     id, # num
-    vol, # num
+    vol, # num 0.1 - 1
     loop # bool
 );
 
